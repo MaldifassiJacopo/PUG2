@@ -1,0 +1,50 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdeff2; /* Rosa chiaro */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Bianco */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 2.5em;
+  color: #e51937; /* Rosso */
+}
+
+.page-content {
+  margin-top: 20px;
+}
+
+.page-content p {
+  font-size: 1.1em;
+  color: #333; /* Nero */
+}
+
+.page-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #666; /* Grigio */
+  font-style: italic;
+}
